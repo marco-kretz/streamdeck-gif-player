@@ -2,6 +2,8 @@
 
 Plays an image or animated GIF across all keys of an Elgato Stream Deck, so the keys together form one large display.
 
+▶️ [Watch the preview video](preview.mp4) of `fox-walk.gif` running on a Stream Deck MK.2.
+
 Tested with the Stream Deck MK.2 (15 keys, 5×3). Other models supported by [python-elgato-streamdeck](https://github.com/abcminiuser/python-elgato-streamdeck) should work too, since the key layout and image format are read from the device.
 
 > **Linux only for now.** The setup below (udev rule, hidapi) is Linux-specific. Other platforms are untested.
